@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- MY CSS-->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!--fontawesome4.7-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <!--fontawesome 5.0-->
+    <script src="https://kit.fontawesome.com/47471bad85.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP4-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Jam & Chutney: PS I Love..</title>
+  </head>
+
+  <body>
+<!--JUMBOTRON-->
+    <div class="container-fluid p-0">
+      <div class="jumbotron-fluid jamjumbo">
+        <img class="jamjumbopic" src="pics/PSlogo.jpg" alt="logo" height="150px" width="150px" />
+        <h1 class="display-3 jamjumbotitle">Jam & Chutney</h1>
+      </div>
+    </div>
+<!-- NAVBAR-->
+    <div class="container-fluid p-0">
+      <nav class="navbar fixed navbar-expand-lg bg-dark info navbar-dark">
+        <!--toggler button-->
+        <button class="navbar-toggler ml-auto mx-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar links-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav text-center ml-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="./jam.html">Jam & Chutney</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./bakery.html">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+<!--OFFERS TEXT-->
+    <div class="container">
+      <br /><br />
+        <h3 class="offer-text text-center">Single jar £3</h3>
+        <h3 class="offer-text text-center">Buy two for £5</h3>
+        <h4 class="offer-text text-center">Local customers: Return the jar and get 10% off your next purchase!</h4>
+        <p class="offer-text-small text-center">Hover over the labels to see a list of ingredients!</p>
+        <br />
+    </div>
+<!--LABELS-->
+
+    <div class="container">
+      <div class="row">
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/AppleRedPep&Date.jpg" onmouseover="showIngredients(this, 'pics/appleredpeping.jpg')" onmouseout="hideIngredients(this, 'pics/AppleRedPep&Date.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Apple, Red Pepper & Date Chutney</h6>
+            <p class="card-text text-center">Award winner and family favourite. Give it  try and see what you think.</p>
+          </div>
+        </div>
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/GreenTomatoChutney.jpg" onmouseover="showIngredients(this, 'pics/green tomato ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/GreenTomatoChutney.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Green Tomato Chutney</h6>
+            <p class="card-text text-center">Traditional "Roll Royce" of the <br />chutneys (with an additional kick!)</p>
+          </div>
+        </div>
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/SweetPlumChutney.jpg" onmouseover="showIngredients(this, 'pics/PSlogo.jpg')" onmouseout="hideIngredients(this, 'pics/SweetPlumChutney.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Sweet Plum Chutney</h6>
+            <p class="card-text text-center">Inspired by Nigel Slater's recipe, a twist on a classic.</p>
+          </div>
+        </div>
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/Pear&FigChutney.jpg" onmouseover="showIngredients(this, 'pics/pear & fig ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/Pear&FigChutney.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Pear & Fig Chutney</h6>
+            <p class="card-text text-center">Lovely subtle chutney with more delicate flavours.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/ApricotChutney.jpg" onmouseover="showIngredients(this, 'pics/Apricot chutney ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/ApricotChutney.jpg')" alt="label" />
+          <div class="card-body">
+            <h6 class="card-heading text-center">Apricot Chutney</h6>
+            <p class="card-text text-center">Delicately spiced chutney crammed with fresh apricots with warming chilli and tumeric.</p>
+          </div>
+        </div>
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/Marmalade.jpg" onmouseover="showIngredients(this, 'pics/Marmalade ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/Marmalade.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Marmalade</h6>
+            <p class="card-text text-center">The real deal! Traditional seville Marmalade.</p>
+          </div>
+        </div>
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/PlumJam.jpg" onmouseover="showIngredients(this, 'pics/yellow plum ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/PlumJam.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Yellow Plum Jam</h6>
+            <p class="card-text text-center">Can be eaten as a breakfast jam. Also great in sponges or on scones.</p>
+          </div>
+        </div>
+        <div class="card label-pic border-0 col-md-3 col-sm-6" style="width:250px;">
+          <img class="card-img-top" src="pics/Strawberry&RhubarbJam.jpg" onmouseover="showIngredients(this, 'pics/strawb & rhubarb ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/Strawberry&RhubarbJam.jpg')" alt="label">
+          <div class="card-body">
+            <h6 class="card-heading text-center">Strawberry & Rhubarb Jam</h6>
+            <p class="card-text text-center">The addition of the rhubarb enhances the flavour of the strawberries
+              without being too sickly or sweet</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!--MINCEMEAT-->
+    <div class="container">
+      <div class="card border-0 mx-auto" style="width:250px;">
+        <img class="card-img-top" src="pics/Mincemeat.jpg" onmouseover="showIngredients(this, 'pics/Mincemeat ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/Mincemeat.jpg')" alt="label">
+          </div>
+          <div class="card-body mx-auto" style="width:400px;">
+            <h6 class="card-heading text-center">Luxury Brandy Mincemeat</h6>
+            <p class="card-text text-center">After buying comercial made mincemeat for many years, I decided to make my own.<br />
+            Inspired by Delia Smith's recipe, this luxury mincemeat is no comparison to shop bought.<br />
+            You can taste every delicious ingredient.</p>
+        </div>
+      </div>
+
+
+
+
+
+<!-- FOOTER -->
+    <div class="container-fluid p-0">
+      <div class="navbar bg-dark">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <p class="foottext ml-auto">psilove.info@gmail.com</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,172 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- MY CSS-->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!--fontawesome4.7-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <!--fontawesome 5.0-->
+    <script src="https://kit.fontawesome.com/47471bad85.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP4-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Home: PS I Love..</title>
+  </head>
+
+  <body>
+<!--JUMBOTRON-->
+    <div class="container-fluid p-0">
+      <div class="jumbotron-fluid homejumbo">
+        <img class="jumbopic" src="pics/PSlogo.jpg" alt="logo" height="250px" width="250px;" />
+        <h1 class="display-3 jumbotitle">PS I LOVE...</h1>
+        <p class="jumbosubtitle">Welcome to Penny's Festive Bakery with Award Winning Jam & Chuntney</p>
+      </div>
+    </div>
+<!-- NAVBAR-->
+    <div class="container-fluid p-0">
+      <nav class="navbar fixed navbar-expand-lg bg-dark info navbar-dark">
+        <!--toggler button-->
+        <button class="navbar-toggler ml-auto mx-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar links-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav text-center ml-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./jam.html">Jam & Chutney</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./bakery.html">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+<!--FAIRYLIGHTS-->
+    <div class="container-fluid fairylights p-0">
+      <img class="fairylights" src="pics/fairylights-straight.png" height="97px" alt="fairylights"/>
+    </div>
+
+<!--PENNYPIC-->
+    <div class="container-fluid profilesection p-0">
+      <img class="rounded mx-auto d-block profilepic" src="pics/profilepic.jpeg" alt="logo" height="400px" width="300px;" />
+    </div>
+
+<!--BLURB-->
+  <br />
+      <div class="container">
+        <div class="jumbotron" style="background-color:transparent;" >
+          <h1 class="MessageTitle text-center">A Message from Penny</h1>
+          <hr class="my-4 col-5" />
+          <p class="MessageText text-center">I have always been passionate about making my own preserves,
+          chutneys and cakes, and have enjoyed some success entering them at the Collingham Show. During the
+          festive period, I will be offering decorated Christmas cakes in a range of sizes, as
+          well as mince pies and jars of luxury brandy mincemeat. Christmas cakes can also
+          be made to your specification with marzipan and icing, or dressed with a selection of
+          dried fruit and nuts and finished with an apricot glaze. I also provide a selection
+          of chutneys, jams and marmalade all year round. I am offering free delivery to Collingham
+          village. If you have any enquiries feel free to get in touch via phone, text or email. My
+          kitchen has received a 5-star Food Hygiene Rating from the Food Standards Agency.</p>
+          <h3 class="pennysignature text-center">Penny Short</h3>
+        </div>
+      </div>
+<!--CARD LINKS-->
+    <div class="container">
+     <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <div class="card border-0 mx-auto" style="width: 18rem;"">
+          <a href="/jam.html" ><img class="card-img-top" src="pics/darkjamjars.jpeg" onmouseover="showIngredients(this, 'pics/jamjars.jpeg')"
+          onmouseout="hideIngredients(this, 'pics/darkjamjars.jpeg')" alt="jamjars" height="350px"></a>
+          <div class="card-body mx-auto">
+            <h5 class="card-title">Jam & Chutney</h5>
+        </div>
+      </div>
+    </div>
+      <div class="col-lg-4 col-sm-12">
+        <div class="card border-0 mx-auto" style="width: 18rem;">
+          <a href="/bakery.html"><img class="card-img-top" src="pics/darkminicakes.jpeg" onmouseover="showIngredients(this, 'pics/minicakes.jpeg')"
+          onmouseout="hideIngredients(this, 'pics/darkminicakes.jpeg')" alt="cakes" height="350px"></a>
+          <div class="card-body mx-auto">
+            <h5 class="card-title">Festive Bakery</h5>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12">
+        <div class="card border-0 mx-auto" style="width: 18rem;">
+          <a href="/contact.html"><img class="card-img-top" src="pics/darkps-stand.jpg" onmouseover="showIngredients(this, 'pics/ps-stand.jpg')"
+          onmouseout="hideIngredients(this, 'pics/darkps-stand.jpg')" alt="stand" height="350px"></a>
+          <div class="card-body mx-auto">
+            <h5 class="card-title">Contact</h5>
+          </div>
+        </div>
+      </div>
+     </div>
+    </div>
+
+<!--REVIEWS CAROUSEL-->
+    <div class="container col-5">
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active" data-interval="3500">
+            <p class="carouseltext">"We've already ordered our christmas cake for next year!
+              We would definitely recommend PS I Love to all our friends."<br /><br />
+            Julie, Winthorpe</p>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <p class="carouseltext">"I'm not much of a baker and my daughter has many food
+              allergies. We can't rely on shop bought products so we are so grateful for Penny and
+                her amazing made-to-order christmas cakes!"<br /><br />Alice, Newark</p>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <p class="carouseltext">"Apple, Red Pepper and Date Chutney is my absolute favourite. I'll
+              never buy supermarket chutney again."<br /><br />Paul, Collingham</p>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <p class="carouseltext">"The mince pies didn't make the drive home. Delicious!
+              Penny is a true professional."<br /><br />
+              Tina, Lincoln</p>
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <p class="carouseltext">"Fast, friendly and professional service. We're so lucky Penny
+              is right on our doorstep. We always make the most of the 10% offer."<br /><br />
+              Liam, Collingham</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+
+    <br />
+
+<!-- FOOTER -->
+    <div class="container-fluid p-0">
+      <div class="navbar bg-dark">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <p class="foottext ml-auto">psilove.info@gmail.com</p>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

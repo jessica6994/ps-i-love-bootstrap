@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- MY CSS-->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!--fontawesome4.7-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <!--fontawesome 5.0-->
+    <script src="https://kit.fontawesome.com/47471bad85.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP4-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Contact: PS I Love..</title>
+  </head>
+
+  <body>
+<!--JUMBOTRON-->
+    <div class="container-fluid p-0">
+      <div class="jumbotron-fluid jamjumbo">
+        <img class="jamjumbopic" src="pics/PSlogo.jpg" alt="logo" height="150px" width="150px" />
+        <h1 class="display-3 jamjumbotitle">Contact Me</h1>
+      </div>
+    </div>
+<!-- NAVBAR-->
+    <div class="container-fluid p-0">
+      <nav class="navbar fixed navbar-expand-lg bg-dark info navbar-dark">
+        <!--toggler button-->
+        <button class="navbar-toggler ml-auto mx-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar links-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav text-center ml-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./jam.html">Jam & Chutney</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light " href="./bakery.html">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+<!--CONTACT FORM-->
+<br />
+    <div class="container d-flex justify-content-center">
+        <!--NAME-->
+      <form>
+        <div class="form-row">
+          <label for="inputFirstName" class="form-label mx-auto">First Name</label>
+          <input type="text" class="form-control" id="inputFirstName" placeholder="First Name" required>
+        </div>
+        <div class="form-row">
+          <label for="inputLastName" class="form-label mx-auto">Last Name</label>
+          <input type="text" class="form-control" id="inputFirstName" placeholder="Last Name" required>
+        </div>
+        <!--EMAIL-->
+          <div class="form-row">
+            <label for="inputEmail" class="form-label mx-auto">Email</label>
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" required>
+          </div>
+        <!--NUMBER-->
+        <div class="form-row">
+          <label for="inputNumber" class="form-label mx-auto">Number</label>
+          <input type="tel" class="form-control" id="inputNumber" placeholder="Number" required>
+        </div>
+        <div class="form-row col-8 mx-auto">
+          <label for="inputRegion" class="form-label mx-auto">What would you like to ask me?</label>
+          <select id="inputRegion" class="form-control" required>
+              <option selected>Order Enquiry</option>
+              <option>Special Request</option>
+              <option>Allergy Enquiry</option>
+              <option>Unhappy With Product</option>
+              <option>General Enquiry</option>
+            </select>
+          </div>
+        <!--MESSAGEBOX-->
+        <div class="form-row">
+          <label for="messageBox" class="form-label mx-auto">Message</label>
+          <textarea class="form-control" required id="messageBox" rows="3">How can I help?</textarea>
+        </div>
+      </form>
+    </div>
+    <br />
+    <div class="container d-flex justify-content-center">
+      <button type="submit" class="btn btn-danger mx-auto p-font">Send</button>
+    </div>
+    <br />
+
+
+
+
+
+<!-- FOOTER -->
+  <div class="container-fluid p-0">
+    <div class="navbar bg-dark">
+      <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+      <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+      <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+      <p class="foottext ml-auto">psilove.info@gmail.com</p>
+    </div>
+  </div>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- MY CSS-->
+    <link href="./style.css" type="text/css" rel="stylesheet">
+    <!--fontawesome4.7-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" >
+    <!--fontawesome 5.0-->
+    <script src="https://kit.fontawesome.com/47471bad85.js" crossorigin="anonymous"></script>
+    <!--BOOTSTRAP4-->
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Bakery: PS I Love..</title>
+  </head>
+  <body>
+<!--JUMBOTRON-->
+    <div class="container-fluid p-0">
+      <div class="jumbotron-fluid jamjumbo">
+        <img class="jamjumbopic" src="pics/PSlogo.jpg" alt="logo" height="150px" width="150px" />
+        <h1 class="display-3 jamjumbotitle">Festive Bakery</h1>
+      </div>
+    </div>
+<!-- NAVBAR-->
+    <div class="container-fluid p-0">
+      <nav class="navbar fixed navbar-expand-lg bg-dark info navbar-dark">
+        <!--toggler button-->
+        <button class="navbar-toggler ml-auto mx-auto" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" aria-controls="collapsibleNavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--navbar links-->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav text-center ml-auto mx-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./jam.html">Jam & Chutney</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light active" href="./bakery.html">Bakery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="./contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+<!--FAIRYLIGHTS-->
+    <div class="container-fluid fairylights p-0">
+      <img class="fairylights" src="pics/fairylights-straight.png" height="97px" alt="fairylights"/>
+    </div>
+<!--CHRISTMAS CAKE-->
+    <div class="container">
+        <h3 class=" p-font-bold text-center">Christmas Cakes</h3>
+        <hr class="my-4 col-5" />
+        <img class="rounded mx-auto d-block" src="pics/Christmas Cake.jpg" onmouseover="showIngredients(this, 'pics/Christmas Cake ingredients.jpg')" onmouseout="hideIngredients(this, 'pics/Christmas Cake.jpg')" alt="label"  height="250px" width="250px"/>
+        <br />
+        <h4 class="offer-text p-font text-center">Made to order Christmas cakes available to order from November 1st 2020!</h4>
+        <p class="offer-text-small text-center">Rich and moist Christmas cake, fed with additional brandy to ensure a well infused mature cake.
+          Finished to your specification either with marzipan and icing or dressed with a selection of fruit and nuts finished with
+          an apricot glaze.</p>
+        <img class="rounded mx-auto d-block" src="pics/holly.png" />
+        <br />
+      </div>
+<!--PRICE TABLE-->
+    <div class="container">
+      <table class="table col-4 mx-auto">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col-2" colspan="2" class="text-center p-font">Prices</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-danger text-center">
+            <th scope="row" class="p-font">Mini</th>
+            <td class="text-left p-font">£5</td>
+          </tr>
+          <tr class="table-danger text-center">
+            <th scope="row" class="p-font">Small</th>
+            <td class="text-left p-font">£10</td>
+          </tr>
+          <tr class="table-danger text-center">
+            <th scope="row" class="p-font">Medium</th>
+            <td class="text-left p-font">£15</td>
+          </tr>
+          <tr class="table-danger text-center">
+            <th scope="row" class="p-font">Large</th>
+            <td class="text-left p-font">£20</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+<!--CAKE CAROUSEL-->
+    <div class="container">
+      <div id="carouselExampleControls" class="carousel cakecarousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-interval="3500">
+            <img src="pics/xmas cake large.jpg" class="d-block w-100 img-fluid" alt="square logo">
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <img src="pics/xmas cakes.jpg" class="d-block w-100 img-fluid" alt="back of dress">
+          </div>
+          <div class="carousel-item" data-interval="3500">
+            <img src="pics/xmascakes.jpg" class="d-block w-100 img-fluid" alt="back of dress">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+<!--FAIRYLIGHTS-->
+    <div class="container-fluid fairylights p-0">
+      <img class="fairylights" src="pics/fairylights-straight.png" height="97px" alt="fairylights"/>
+    </div>
+<!--MINCEPIES-->
+    <div class="container">
+        <h3 class="p-font-bold text-center">Mince Pies</h3>
+        <hr class="my-4 col-5" />
+        <img class="rounded mx-auto d-block" src="pics/mincepies.jpg" alt="mince pies" />
+        <br />
+        <h4 class="offer-text p-font text-center">Made with all-butter pastry and my Luxury Brandy Mincemeat, see our offers on our mini and regular sized mince pies.</h4>
+        <br />
+        <img class="rounded mx-auto d-block" src="pics/holly.png" />
+        <p class="offer-text-small text-center"></p>
+    </div>
+<!--PRICE TABLE-->
+    <div class="container">
+      <table class="table col-4 mx-auto">
+        <thead class="thead-dark">
+          <tr>
+            <th scope="col-2" colspan="2" class="text-center p-font">Prices</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="table-danger text-center">
+            <th scope="row" class="p-font">Mini</th>
+            <th class="text-left p-font">Regular</th>
+          </tr>
+          <tr class="table-danger text-center">
+            <td scope="row" class="p-font">6 for £2</td>
+            <td class="text-left p-font">6 for £3</td>
+          </tr>
+          <tr class="table-danger text-center">
+            <td scope="row" class="p-font">12 for £3.50</td>
+            <td class="text-left p-font">12 for £5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+<!-- FOOTER -->
+    <div class="container-fluid p-0">
+      <div class="navbar bg-dark">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.twitter.com"><i class="fab fa-twitter-square"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <p class="foottext ml-auto text-light">psilove.info@gmail.com</p>
+      </div>
+  </div>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
